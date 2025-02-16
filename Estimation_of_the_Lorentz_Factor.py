@@ -60,7 +60,7 @@ survived_muons_values = np.array([
 
 plt.figure(figsize=(10, 6))
 plt.plot(gamma_values, survived_muons_values, label="Simulation Results", color="blue")
-plt.axhline(observed_muons, color="red", linestyle="--", label="Observed Number of Muons")
+plt.axhline(observed_muons, color="red", linestyle="--", label="The Lorentz factor is at its theoretical value")
 plt.axvline(gamma_estimate, color="green", linestyle="--", label=f"Estimated Lorentz Factor: {gamma_estimate:.2f}")
 plt.xlabel("The Lorentz Factor (γ)")
 plt.ylabel("Number of Muons Observed on the Ground")
